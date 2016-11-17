@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "trollblock",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Troll Blocker",
+    "description": "The description of the application"
+  }
+}
