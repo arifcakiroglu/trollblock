@@ -13,7 +13,7 @@ console.log('Amk a')
 //addrelation
 
 $(function(){
-
+  $('.entry-author').before('<a href="#" style="color:red">⚑</a>');
   var amk = ['1158231', '1358077' , '1177077', '1434091']
 
 
