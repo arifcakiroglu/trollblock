@@ -75,6 +75,7 @@ chrome.runtime.onMessage.addListener(function (req, sender, sendRes) {
   return handler[req.type]();
 });
 
+
 function eachTask(tasks, done) {
   (function next() {
     var index = arguments.length <= 0 || arguments[0] === undefined ? 0 : arguments[0];

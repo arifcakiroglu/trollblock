@@ -1,3 +1,21 @@
-body>header{
-  border-color: red !important
+
+.process{
+  width: 100%;
+  height: 250px;
+  background-color: #fff;
+  color: #80c14b;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.process img{
+  width: 100px;
+}
+
+.process b{
+  display: block;
+  text-align: center;
+  clear: both;
 }

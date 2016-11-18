@@ -13,7 +13,11 @@
 </head>
 
 <body>
-  <h1>'Allo, 'Allo!</h1>
+  <textarea name="name" rows="8" cols="40" class="trollList"></textarea>
+
+  <button class="parse">parse</button>
+
+  <div class="result"></div>
 
   <!-- build:js scripts/popup-vendor.js -->
   <!-- bower:js -->
@@ -21,6 +25,7 @@
   <!-- endbuild -->
 
   <!-- build:js scripts/popup.js -->
+  <script src="scripts/jquery.js"></script>
   <script src="scripts/popup.js"></script>
   <!-- endbuild -->
 </body>
